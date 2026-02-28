@@ -12,19 +12,23 @@ export default function App() {
       status: "In Active Development",
       company: "Personal Project",
       description: "A commercial 2D action-platformer featuring intricate level design, responsive character controls, and dynamic enemy AI. Serves as the primary showcase of modern Godot development practices.",
-      image: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800https://images.unsplash.com/photo-1538481143235-a9d42216b86f?w=800&h=400&fit=croph=400https://images.unsplash.com/photo-1538481143235-a9d42216b86f?w=800&h=400&fit=cropfit=crop",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663389627329/UDozdchpEIPXAmqF.png",
       systems: [
         {
           name: "Combat System",
-          description: "GDScript FSM with AnimationTree integration for smooth state transitions"
+          description: "Frame-perfect combat mechanics with combo chains, parry windows, and responsive feedback"
         },
         {
           name: "Physics Engine",
-          description: "CharacterBody2D with collision detection and responsive acceleration curves"
+          description: "CharacterBody2D with collision detection and responsive acceleration curves for fluid movement"
         },
         {
           name: "Level Design",
-          description: "Hand-crafted levels with progressive difficulty and environmental storytelling"
+          description: "Hand-crafted levels with progressive difficulty, environmental storytelling, and hidden secrets"
+        },
+        {
+          name: "Enemy AI",
+          description: "State machine-based AI with pathfinding, attack patterns, and dynamic difficulty scaling"
         }
       ]
     },
@@ -37,7 +41,7 @@ export default function App() {
       status: "Complete",
       company: "72-Hour Game Jam",
       description: "A 3D cyberpunk-themed puzzle-platformer prototype created during a rapid game jam. Demonstrates rapid prototyping capabilities and 3D gameplay implementation in Godot.",
-      image: "https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&h=400&fit=croph=400https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&h=400&fit=cropfit=crop",
+      image: "https://images.unsplash.com/photo-1538481143235-a9d42216b86f?w=800https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800&h=400&fit=croph=400https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=800&h=400&fit=cropfit=crop",
       systems: [
         {
           name: "3D Physics",
@@ -75,6 +79,31 @@ export default function App() {
         {
           name: "AI Systems",
           description: "Behavior trees and state machines for complex enemy interactions"
+        }
+      ]
+    },
+    {
+      id: 4,
+      title: "Crystal Realm Adventure",
+      subtitle: "Gameplay & Systems Programmer",
+      date: "January 2024 – Present",
+      engine: "Godot 4.2 · GDScript",
+      status: "In Development",
+      company: "Personal Project",
+      description: "An immersive action-adventure title blending exploration, puzzle-solving, and strategic combat. Features a dynamic magic system with elemental interactions and environmental puzzles.",
+      image: "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800https://images.unsplash.com/photo-1538481143235-a9d42216b86f?w=800&h=400&fit=croph=400https://images.unsplash.com/photo-1538481143235-a9d42216b86f?w=800&h=400&fit=cropfit=crop",
+      systems: [
+        {
+          name: "Magic System",
+          description: "Elemental magic with environmental interactions and combo mechanics"
+        },
+        {
+          name: "Puzzle Framework",
+          description: "Data-driven puzzle system supporting complex multi-stage environmental challenges"
+        },
+        {
+          name: "Exploration System",
+          description: "World traversal with dynamic discovery, secret areas, and environmental storytelling"
         }
       ]
     }
